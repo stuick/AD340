@@ -1,0 +1,25 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:2:1-12:12
+	package
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:3:5-26
+	xmlns:android
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:4:5-11:19
+	android:label
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:4:18-41
+activity#com.example.MainActivity
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:5:9-10:20
+	android:name
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:5:19-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:6:13-9:29
+action#android.intent.action.MAIN
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:7:17-69
+	android:name
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:7:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:8:17-77
+	android:name
+		ADDED from D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\src\main\AndroidManifest.xml:8:27-74
