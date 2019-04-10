@@ -5,31 +5,23 @@
     build-mode="COLD"
     density="420dpi"
     format="10"
-    ir-eligibility="COMPATIBLE"
     plugin-version="3.3.2"
-    timestamp="1554932858037"
+    timestamp="1554934153476"
     token="6847668363961789642"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="135" />
+        duration="0" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="30" />
+        duration="0" />
     <task
         name="verifier"
-        duration="6" />
-
-    <artifact
-        location="D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-        type="SPLIT_MAIN" />
+        duration="0" />
 
     <build
         build-mode="FULL"
@@ -72,15 +64,6 @@
     <build
         build-mode="COLD"
         ir-eligibility="COMPATIBLE"
-        timestamp="1554932612078"
-        verifier="COLD_SWAP_REQUESTED" >
-        <artifact
-            location="D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
-            type="SPLIT_MAIN" />
-    </build>
-    <build
-        build-mode="COLD"
-        ir-eligibility="COMPATIBLE"
         timestamp="1554932858037"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
@@ -90,5 +73,9 @@
             location="D:\COURS\AD\SPRING19\340\InClass\AD340\HW1\myInfo\app\build\intermediates\instant-run-apk\debug\app-debug.apk"
             type="SPLIT_MAIN" />
     </build>
+    <build
+        build-mode="COLD"
+        timestamp="1554934153476"
+        verifier="COLD_SWAP_REQUESTED" />
 
 </instant-run>
