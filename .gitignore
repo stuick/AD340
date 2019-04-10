@@ -1,3 +1,4 @@
-/hw1/myinfo/.gradle
-/hw1/myinfo/.idea
+/hw1/myinfo/.gradle/
+/hw1/myinfo/.idea/
 *.iml
+/hw1/myinfo/app/build/
