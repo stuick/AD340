@@ -1,5 +1,8 @@
+*.properties
+*.iml
 /hw1/myinfo/.gradle
 /hw1/myinfo/.idea
-*.iml
 /hw1/myinfo/app/build
-*.properties
+/hw2/myinfo/.gradle
+/hw2/myinfo/.idea
+/hw2/myinfo/app/build
