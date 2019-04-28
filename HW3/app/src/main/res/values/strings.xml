@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Homework3</string>
+    <string name="Button1">First</string>
+    <string name="Button2">Second</string>
+    <string name="Button3">Third</string>
+    <string name="Button4">Fourth</string>
+
+
+    <string name="listview_year">Year:&#160;</string>
+</resources>
