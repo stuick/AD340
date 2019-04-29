@@ -30,11 +30,22 @@ public class MovieList extends AppCompatActivity {
         MoviesAdapter adapter = new MoviesAdapter(movies);
 
         recyclerView.setAdapter(adapter);
+        final Intent intentDetails=new Intent(this, Details.class);
 
         adapter.setListener(new MoviesAdapter.Listener() {
             @Override
             public void onClick(int position) {
                 Log.i(TAG, "Clicked " + movies[position].getTitle());
+                String title = movies[position].getTitle()+"    ";
+                String synopsis = movies[position].getSynopsis();
+                String year = new Integer(movies[position].getYear()).toString();
+                String director = movies[position].getDirector();
+                intentDetails.putExtra("title",title);
+                intentDetails.putExtra("director",director);
+                intentDetails.putExtra("year",year);
+                intentDetails.putExtra("synopsis",synopsis);
+                startActivity(intentDetails);
+
             }
         });
 

@@ -61,7 +61,7 @@ public class MoviesAdapter extends RecyclerView.Adapter<MoviesAdapter.ViewHolder
         Movies film = movies[position];
         title.setText(film.getTitle());
         year.setText(context.getResources().getString(R.string.listview_year)
-                + movies[position].getTitle());
+                + movies[position].getYear());
         director.setText(film.getDirector());
 
         cardView.setOnClickListener(new View.OnClickListener() {
