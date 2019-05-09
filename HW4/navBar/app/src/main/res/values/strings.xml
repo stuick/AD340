@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Homework 4: Fragments</string>
+    <string name="about">About Page</string>
+    <string name="home">Welcome</string>
+    <string name="app_bar_share">Share</string>
+    <string name="app_bar_settings">Settings</string>
+    <string name="nav_open_drawer">Open</string>
+    <string name="nav_close_drawer">Close</string>
+</resources>
