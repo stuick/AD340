@@ -1,4 +1,4 @@
-*.properties
+local.properties
 *.iml
 /hw1/myinfo/.gradle
 /hw1/myinfo/.idea
