@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2">
+
+        <TextView
+            android:text="Player 1 Name: "
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/p1"
+            />
+
+        <TextView
+            android:text="Player 2 Name: "
+            android:textSize="30dp"
+            />
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/p2"
+            />
+
+    </GridLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checkedButton="@id/but_default"
+            android:id="@+id/radio_ko"
+            >
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select KO"
+                android:textSize="30dp"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="default"
+                android:id="@+id/but_default"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="200"
+                android:id="@+id/twoHundred"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="250"
+                android:id="@+id/twofifty"/>
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/edit"
+                />
+
+            <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="150"
+                android:inputType="number"
+                android:id="@+id/edit_ko"/>
+        </RadioGroup>
+
+
+    </LinearLayout>
+
+    <Button
+    android:text="   Create   "
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/button_create"/>
+
+</LinearLayout>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        >
+        <TextView
+            android:id="@+id/first"
+            android:textSize="20dp"
+            android:layout_width="200dp"/>
+
+        <TextView
+            android:id="@+id/second"
+            android:textSize="20dp"
+            android:layout_width="200dp"/>
+
+        <TextView
+            android:id="@+id/firstTotal"
+            android:textSize="20dp"
+            android:layout_width="200dp"/>
+
+        <TextView
+            android:id="@+id/secondTotal"
+            android:textSize="20dp"
+            android:layout_width="200dp"/>
+
+        <Button
+            android:text="@string/negative32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p1_neg_32"
+            />
+
+        <Button
+            android:text="@string/negative32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/p2_neg_32"
+            />
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/p1Round"
+            android:text="@string/noValue"
+            android:inputType="number"
+
+            />
+
+        <EditText
+            android:maxLines="1"
+            android:id="@+id/p2Round"
+            android:text="@string/noValue"
+            android:inputType="number"
+            />
+
+    </GridLayout>
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/validate"
+            android:id="@+id/butt_validate"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Cancel"
+            android:id="@+id/butt_cancel"
+            android:layout_gravity="center_vertical|center_horizontal"/>
+
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">ScoreKeeper 8 Americain</string>
+    <string name="negative32">-32</string>
+    <string name="noValue">0</string>
+    <string name="validate">Validate</string>
+    <string name="Cancel">Cancel last</string>
+    <string name="EndGame">End game</string>
+</resources>
