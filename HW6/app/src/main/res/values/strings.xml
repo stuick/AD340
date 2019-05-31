@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TrafficReport</string>
+    <string name="main_message">Click the Button to continue</string>
+    <string name="Butt_main_activity">Load available camera</string>
+</resources>
