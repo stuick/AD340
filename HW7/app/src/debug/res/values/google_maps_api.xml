@@ -1,3 +1,3 @@
 <resources>
-    <string name="AIzaSyAGaAeBNEb3GpW6NV0MiBfzsNCfFsv8SHU" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
+    <string name="YourKEY" templateMergeStrategy="preserve" translatable="false">YOUR_KEY_HERE</string>
 </resources>
